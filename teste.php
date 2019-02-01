@@ -6,7 +6,7 @@
     <title>Hello Bulma!</title>
     <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Playfair+Display|Roboto:300" rel="stylesheet">
     <link rel="stylesheet" href="bulma-0.7.2/css/bulma.min.css">
-    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/teste.css">
 
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   </head>
@@ -75,28 +75,98 @@
     </div>
   </nav>
 
+  <section class="hero is-light">
+    <div class="hero-body">
+      <div class="container">
+
+              <div class="buttons navbar-categories">
+                <button class="button is-text">Notícias</button>
+                <button class="button is-text">Reviews</button>
+                <button class="button is-text">Guias</button>
+                <button class="button is-text">Tecnologia</button>
+                <button class="button is-text">PC</button>
+                <button class="button is-text">Mobile</button>
+              </div>
+
+
+      </div>
+    </div>
+  </section>
+
   <section class="section">
     <div class="container">
 
-    <div class="grid">
+          <div class="grid">
+            <div class="grid-sizer"></div>
 
-      <div class="card">
-        <div class="card-image">
-          <figure class="image is-4by3">
-            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-          </figure>
-        </div>
-        <div class="card-content">
-          <strong class="media-title">Titulo do Post</strong>
-          <div class="content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Phasellus nec iaculis mauris.
-          </div>
-        </div>
+            <div class="grid-item">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <strong class="media-title">Titulo do Post</strong>
+                  <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec iaculis mauris.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="grid-item">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <strong class="media-title">Titulo do Post</strong>
+                  <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet. Nunc eget lorem dolor sed. Non pulvinar neque laoreet suspendisse interdum. Non sodales neque sodales ut etiam sit amet.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="grid-item">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <strong class="media-title">Titulo do Post</strong>
+                  <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="grid-item">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <strong class="media-title">Titulo do Post</strong>
+                  <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec iaculis mauris.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
       </div>
-
-    </div>
-
     </div>
   </section>
 

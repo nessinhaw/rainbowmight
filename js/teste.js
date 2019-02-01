@@ -1,7 +1,11 @@
 // init Isotope
-var $grid = $('.grid').isotope({
+$('.grid').isotope({
   itemSelector: '.grid-item',
-  layoutMode: 'fitRows'
+  masonry: {
+    columnWidth: 360,
+    isFitWidth: true,
+    gutter: 10
+  }
 });
 // bind filter button click
 $('.filters-button-group').on( 'click', 'button', function() {
