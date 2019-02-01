@@ -12,7 +12,7 @@
   </head>
   <body>
 
-  <nav class="navbar" role="navigation" aria-label="main navigation">
+  <nav class="navbar is-light" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item site-logo" href="https://bulma.io">
         Mana Hungry
@@ -75,27 +75,7 @@
     </div>
   </nav>
 
-  <section class="hero is-light">
-    <div class="hero-body">
-      <div class="container">
-
-              <div class="buttons navbar-categories">
-                <button class="button is-text">Notícias</button>
-                <button class="button is-text">Reviews</button>
-                <button class="button is-text">Guias</button>
-                <button class="button is-text">Tecnologia</button>
-                <button class="button is-text">PC</button>
-                <button class="button is-text">Mobile</button>
-              </div>
-
-
-      </div>
-    </div>
-  </section>
-
   <section class="section">
-    <div class="container">
-
           <div class="grid">
             <div class="grid-sizer"></div>
 
@@ -164,10 +144,7 @@
                 </div>
               </div>
             </div>
-
-
       </div>
-    </div>
   </section>
 
 
