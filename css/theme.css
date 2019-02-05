@@ -67,20 +67,3 @@ a.site-logo:link {
 .button-group-category{
 	margin-bottom: 0.50rem;
 }
-
-.grid{
-	margin: 0 auto;  /*centered */
-}
-
-/* clear fix */
-.grid:after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
-.grid-item {
-  float: left;
-  width: 360px;
-  margin-bottom: 10px;
-}
