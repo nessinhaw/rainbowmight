@@ -135,38 +135,38 @@
     </a>
   </div>
 
-  <div class="carousel">
-    <div class="carousel-cell">
-      <div class="is-featured">
-        <img src="https://i1.wp.com/bloody-disgusting.com/wp-content/uploads/2019/01/resident-evil-2-remake-music-cover.jpg?w=1200&ssl=1" alt="Placeholder image">
-        <div class="overlay">
-          <a href="" class="tag is-dark">Reviews</a>
-          <h1>Titulo do Post</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet. Nunc eget lorem dolor sed. Nunc eget lorem dolor sed. Non pulvinar neque laoreet suspendisse interdum. Non sodales neque sodales ut etiam sit amet. <a href="">Leia mais</a></p>
+    <div class="carousel">
+      <div class="carousel-cell" data-flickity-bg-lazyload="https://i1.wp.com/bloody-disgusting.com/wp-content/uploads/2019/01/resident-evil-2-remake-music-cover.jpg?w=1200&ssl=1">
+        <div class="is-featured">
+          <div class="opacity"></div>
+          <div class="overlay">
+            <a class="tag is-dark">Reviews</a>
+            <h1>Titulo do Post</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet. Nunc eget lorem dolor sed. Nunc eget lorem dolor sed. Non pulvinar neque laoreet suspendisse interdum. Non sodales neque sodales ut etiam sit amet. <a href="">Leia mais</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-cell" data-flickity-bg-lazyload="https://www.playreplay.com.br/wp-content/uploads/2018/03/elder_scrolls_online_summerset_isles-7.jpg">
+        <div class="is-featured">
+          <div class="opacity"></div>
+          <div class="overlay">
+            <a class="tag is-dark">Reviews</a>
+            <h1>Titulo do Post</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet. Nunc eget lorem dolor sed. Nunc eget lorem dolor sed. Non pulvinar neque laoreet suspendisse interdum. Non sodales neque sodales ut etiam sit amet. <a href="">Leia mais</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-cell" data-flickity-bg-lazyload="https://i.ytimg.com/vi/G7-msC73Bsw/maxresdefault.jpg">
+        <div class="is-featured">
+          <div class="opacity"></div>
+          <div class="overlay">
+            <a class="tag is-dark">Reviews</a>
+            <h1>Titulo do Post</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet. Nunc eget lorem dolor sed. Nunc eget lorem dolor sed. Non pulvinar neque laoreet suspendisse interdum. Non sodales neque sodales ut etiam sit amet. <a href="">Leia mais</a></p>
+          </div>
         </div>
       </div>
     </div>
-    <div class="carousel-cell">
-      <div class="is-featured">
-        <img src="https://www.playreplay.com.br/wp-content/uploads/2018/03/elder_scrolls_online_summerset_isles-7.jpg" alt="Placeholder image">
-        <div class="overlay">
-          <a class="tag is-dark">Reviews</a>
-          <h1>Titulo do Post</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet. Nunc eget lorem dolor sed. Nunc eget lorem dolor sed. Non pulvinar neque laoreet suspendisse interdum. Non sodales neque sodales ut etiam sit amet. <a href="">Leia mais</a></p>
-        </div>
-      </div>
-    </div>
-    <div class="carousel-cell">
-      <div class="is-featured">
-        <img src="https://i.ytimg.com/vi/G7-msC73Bsw/maxresdefault.jpg" alt="Placeholder image">
-        <div class="overlay">
-          <a class="tag is-dark">Reviews</a>
-          <h1>Titulo do Post</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet. Nunc eget lorem dolor sed. Nunc eget lorem dolor sed. Non pulvinar neque laoreet suspendisse interdum. Non sodales neque sodales ut etiam sit amet. <a href="">Leia mais</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <section class="section">
 
@@ -284,6 +284,7 @@
   <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
   <script src="js/masonry.pkgd.min.js"></script>
   <script src="js/flickity.pkgd.min.js"></script>
+  <script src="https://unpkg.com/flickity-bg-lazyload@1/bg-lazyload.js"></script>
   <script src="js/teste.js"></script>
   </body>
 </html>
