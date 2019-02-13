@@ -7,15 +7,15 @@ body{
 }
 
 a:link, a:visited{
-  color: #802BB1;
-}
-
-a:hover, a:active{
   color: #9432cd;
 }
 
+a:hover, a:active{
+  color: #9f46d2;
+}
+
 .navbar{
-  background-color: #2d283e !important;
+  background-color: #17141f !important;
 }
 
 .navbar-brand{
@@ -24,12 +24,12 @@ a:hover, a:active{
 }
 
 .navbar-item{
-  color: #802BB1;
+  color: #9432cd;
 }
 
 a.navbar-item:hover, a.navbar-item:active{
   color: #9432cd;
-  background-color: #38324e;
+  background-color: #2d283e;
 }
 
 .navbar-start .navbar-item{
@@ -42,8 +42,8 @@ a.navbar-item:hover, a.navbar-item:active{
 }
 
 .navbar-end .button{
-  background-color: #38324e;
-  color: #802BB1;
+  background-color: #17141f;
+  color: #9432cd;
   border: none;
 }
 
@@ -74,8 +74,8 @@ a.navbar-item:hover, a.navbar-item:active{
 
 .footer{
   display: none;
-  background: #2d283e;
-  color: #d1d7e0;
+  background: #17141f;
+  color: #f0f2f5;
   padding: 10px;
 }
 
@@ -95,6 +95,8 @@ a.navbar-item:hover, a.navbar-item:active{
   font-size: 1.0rem;
   text-transform: uppercase;
   margin-bottom: 1.0rem;
+  margin-left: 8.5%;
+  color: #17141f;
 }
 
 .section{
@@ -124,11 +126,11 @@ a.navbar-item:hover, a.navbar-item:active{
 }
 
 .card-content{
-  background-color: #2d283e;
+  background-color: #17141f;
 }
 
 a.is-title:link, a.is-title:visited{
-  color: #d1d7e0;
+  color: #f0f2f5;
 }
 
 a.is-title:hover, a.is-title:active{
@@ -145,12 +147,12 @@ a.is-title:hover, a.is-title:active{
 }
 
 .card-content .content p{
-  color: #d1d7e0 !important;
+  color: #f0f2f5 !important;
 }
 
 .card-content .tag{
-  background-color: #802BB1;
-  color: #d1d7e0;
+  background-color: #802bb1;
+  color: #f0f2f5;
   text-transform: uppercase;
   font-size: .65rem;
 }
@@ -162,14 +164,14 @@ a.is-title:hover, a.is-title:active{
 
 .carousel {
   background: transparent;
-  margin-bottom: 15px;
+  margin-bottom: 2%;
 }
 
 .carousel-cell {
   width: 80%;
   height: 550px;
   margin-right: 0px;
-  background: #2d283e;
+  background: #17141f;
   background-position: center center;
   background-size: cover;
 }
@@ -181,18 +183,18 @@ a.is-title:hover, a.is-title:active{
 
 .opacity{
   position: relative;
-  background: rgba(45, 40, 62, 0.6);
+  background: rgba(23, 20, 31, 0.6);
   transition: 1s;
   height: 100%;
 }
 
 .opacity:hover{
-  background: rgba(45, 40, 62, 0.2);
+  background: rgba(23, 20, 31, 0.2);
 }
 
 .is-featured .overlay{
   color: #ffffff;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
+  background-image: linear-gradient(to bottom, rgba(11,10,16,0), rgba(11,10,16,1));
   position: absolute;
   padding: 15px;
   bottom: 0;
@@ -212,12 +214,12 @@ a.is-title:hover, a.is-title:active{
 .is-featured h1{
   font-family: 'Playfair Display', serif;
   font-size: 3.5rem;
-  color: #d1d7e0;
+  color: #f0f2f5;
 }
 
 .is-featured p{
   padding-left: 1px;
-  color: #d1d7e0;
+  color: #f0f2f5;
 }
 
 .is-featured a{
@@ -225,8 +227,8 @@ a.is-title:hover, a.is-title:active{
 }
 
 .is-featured .tag{
-  background-color: #802BB1;
-  color: #d1d7e0;
+  background-color: #802bb1;
+  color: #f0f2f5;
   text-transform: uppercase;
   font-size: .70rem;
 }
