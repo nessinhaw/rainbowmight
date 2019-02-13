@@ -26,7 +26,7 @@
           <div class="media-content">
             <div class="content">
               <p>
-                <strong>Nome do Autor</strong>
+                <a href="">Nome do Autor</a>
                 <br>
                 Breve introdução.
               </p>
@@ -43,7 +43,7 @@
           <div class="media-content">
             <div class="content">
               <p>
-                <strong>Nome do Autor</strong>
+                <a href="">Nome do Autor</a>
                 <br>
                 Breve introdução.
               </p>
@@ -60,7 +60,7 @@
     </div>
   </div>
 
-  <nav class="navbar is-light" role="navigation" aria-label="main navigation">
+  <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item" href="https://bulma.io">
         Nameless
@@ -140,7 +140,7 @@
         <div class="is-featured">
           <div class="opacity"></div>
           <div class="overlay">
-            <a class="tag is-dark">Reviews</a>
+            <a class="tag">Reviews</a>
             <h1>Titulo do Post</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet. Nunc eget lorem dolor sed. Nunc eget lorem dolor sed. Non pulvinar neque laoreet suspendisse interdum. Non sodales neque sodales ut etiam sit amet. <a href="">Leia mais</a></p>
           </div>
@@ -150,7 +150,7 @@
         <div class="is-featured">
           <div class="opacity"></div>
           <div class="overlay">
-            <a class="tag is-dark">Reviews</a>
+            <a class="tag">Reviews</a>
             <h1>Titulo do Post</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet. Nunc eget lorem dolor sed. Nunc eget lorem dolor sed. Non pulvinar neque laoreet suspendisse interdum. Non sodales neque sodales ut etiam sit amet. <a href="">Leia mais</a></p>
           </div>
@@ -160,7 +160,7 @@
         <div class="is-featured">
           <div class="opacity"></div>
           <div class="overlay">
-            <a class="tag is-dark">Reviews</a>
+            <a class="tag">Reviews</a>
             <h1>Titulo do Post</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet. Nunc eget lorem dolor sed. Nunc eget lorem dolor sed. Non pulvinar neque laoreet suspendisse interdum. Non sodales neque sodales ut etiam sit amet. <a href="">Leia mais</a></p>
           </div>
@@ -181,10 +181,10 @@
                   </figure>
                 </div>
                 <div class="card-content">
-                  <a class="tag is-dark">Reviews</a>
-                  <h1><a href="">Titulo do Post</a></h1> <small>04/02 por <a href="">Autor</a></small>
+                  <a class="tag">Reviews</a>
+                  <h1><a class="is-title" href="">Titulo do Post</a></h1> <small>04/02 por <a href="">Autor</a></small>
                   <div class="content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet. Nunc eget lorem dolor sed. <a href="">Leia mais</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet. Nunc eget lorem dolor sed. <a href="">Leia mais</a></p>
                   </div>
                 </div>
               </div>
@@ -198,10 +198,10 @@
                   </figure>
                 </div>
                 <div class="card-content">
-                  <a class="tag is-dark">Notícias</a>
-                  <h1><a href="">Titulo do Post</a></h1> <small>04/02 por <a href="">Autor</a></small>
+                  <a class="tag">Notícias</a>
+                  <h1><a class="is-title" href="">Titulo do Post</a></h1> <small>04/02 por <a href="">Autor</a></small>
                   <div class="content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet. Nunc eget lorem dolor sed. Non pulvinar neque laoreet suspendisse interdum. Non sodales neque sodales ut etiam sit amet. <a href="">Leia mais</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet. Nunc eget lorem dolor sed. Non pulvinar neque laoreet suspendisse interdum. Non sodales neque sodales ut etiam sit amet. <a href="">Leia mais</a></p>
                   </div>
                 </div>
               </div>
@@ -215,10 +215,10 @@
                   </figure>
                 </div>
                 <div class="card-content">
-                  <a class="tag is-dark">Guias</a>
-                  <h1><a href="">Titulo do Post</a></h1> <small>03/02 por <a href="">Autor</a></small>
+                  <a class="tag">Guias</a>
+                  <h1><a class="is-title" href="">Titulo do Post</a></h1> <small>03/02 por <a href="">Autor</a></small>
                   <div class="content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet. <a href="">Leia mais</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet. <a href="">Leia mais</a></p>
                   </div>
                 </div>
               </div>
@@ -232,11 +232,11 @@
                   </figure>
                 </div>
                 <div class="card-content">
-                  <a class="tag is-dark">Notícias</a>
-                  <h1><a href="">Titulo do Post</a></h1> <small>02/02 por <a href="">Autor</a></small>
+                  <a class="tag">Notícias</a>
+                  <h1><a class="is-title" href="">Titulo do Post</a></h1> <small>02/02 por <a href="">Autor</a></small>
                   <div class="content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Phasellus nec iaculis mauris. <a href="">Leia mais</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec iaculis mauris. <a href="">Leia mais</a></p>
                   </div>
                 </div>
               </div>
@@ -250,11 +250,11 @@
                   </figure>
                 </div>
                 <div class="card-content">
-                  <a class="tag is-dark">Reviews</a>
-                  <h1><a href="">Titulo do Post</a></h1> <small>02/02 por <a href="">Autor</a></small>
+                  <a class="tag">Reviews</a>
+                  <h1><a class="is-title" href="">Titulo do Post</a></h1> <small>02/02 por <a href="">Autor</a></small>
                   <div class="content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Phasellus nec iaculis mauris. <a href="">Leia mais</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec iaculis mauris. <a href="">Leia mais</a></p>
                   </div>
                 </div>
               </div>
@@ -268,10 +268,10 @@
                   </figure>
                 </div>
                 <div class="card-content">
-                  <a class="tag is-dark">Notícias</a>
-                  <h1><a href="">Titulo do Post</a></h1> <small>01/02 por <a href="">Autor</a></small>
+                  <a class="tag">Notícias</a>
+                  <h1><a class="is-title" href="">Titulo do Post</a></h1> <small>01/02 por <a href="">Autor</a></small>
                   <div class="content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet. Nunc eget lorem dolor sed. Non pulvinar neque laoreet suspendisse interdum. Non sodales neque sodales ut etiam sit amet. <a href="">Leia mais</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet. Nunc eget lorem dolor sed. Non pulvinar neque laoreet suspendisse interdum. Non sodales neque sodales ut etiam sit amet. <a href="">Leia mais</a></p>
                   </div>
                 </div>
               </div>

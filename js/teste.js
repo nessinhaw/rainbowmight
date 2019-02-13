@@ -11,7 +11,8 @@ $('.carousel').flickity({
   cellAlign: 'center',
   wrapAround: true,
   imagesLoaded: true,
-  bgLazyLoad: true
+  bgLazyLoad: true,
+  bgLazyLoad: 1
 });
 
 
