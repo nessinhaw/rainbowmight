@@ -12,8 +12,7 @@ $('.carousel').flickity({
   wrapAround: true,
   imagesLoaded: true,
   bgLazyLoad: true,
-  bgLazyLoad: 1,
-  autoPlay: 3500
+  bgLazyLoad: 1
 });
 
 
