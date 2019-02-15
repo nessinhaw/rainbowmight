@@ -1,5 +1,5 @@
 html{
-  background-color: #E6DFF5;
+  background-color: #0b1328;
 }
 
 body{
@@ -7,27 +7,27 @@ body{
 }
 
 a:link, a:visited{
-  color: #F326CB;
+  color: #E509BB;
   transition: .3s;
 }
 
 a:hover, a:active{
-  color: #0399FC;
+  color: #FD33C8;
 }
 
 .navbar{
-  background-color: #331A42 !important;
+  background-color: #0b1328 !important;
 }
 
 .navbar-brand a{
   font-family: 'Major Mono Display', monospace;
   font-size: 2.25rem;
-  color: #F326CB;
+  color: #E509BB;
   transition: .3s;
 }
 
 .navbar-brand a:hover{
-  color: #0399FC;
+  color: #FD33C8;
 }
 
 .navbar-start .navbar-item{
@@ -35,12 +35,12 @@ a:hover, a:active{
 }
 
 .navbar-start a{
-  color: #F326CB;
+  color: #E509BB;
   transition: .3s;
 }
 
 .navbar-start a:hover{
-  color: #0399FC;
+  color: #FD33C8;
   background-color: transparent;
 }
 
@@ -50,14 +50,14 @@ a:hover, a:active{
 }
 
 .navbar-end .button{
-  background-color: #331A42;
+  background-color: #0D1730;
   color: #F326CB;
   border: none;
 }
 
 .search-bar{
   display: none;
-  background: #331A42;
+  background: #0D1730;
   padding: 10px;
 }
 
@@ -83,7 +83,7 @@ a:hover, a:active{
 
 .footer{
   display: none;
-  background: #331A42;
+  background: #0D1730;
   color: #E6DFF5;
   padding: 10px;
 }
@@ -104,7 +104,7 @@ a:hover, a:active{
   width: 75%;
   height: 550px;
   margin-right: 0px;
-  background: #17141f;
+  background: #0D1730;
   background-position: center center;
   background-size: cover;
 }
@@ -116,17 +116,17 @@ a:hover, a:active{
 
 .opacity{
   position: relative;
-  background: rgba(51, 26, 66, 0.6);
+  background: rgba(11, 19, 40, 0.6);
   transition: 1s;
   height: 100%;
 }
 
 .opacity:hover{
-  background: rgba(51, 26, 66, 0.2);
+  background: rgba(11, 19, 40, 0.2);
 }
 
 .is-featured .overlay{
-  background-image: linear-gradient(to bottom, rgba(23,20,31,0), rgba(23,20,31,1));
+  background-image: linear-gradient(to bottom, rgba(11,19,40,0), rgba(11,19,40,1));
   position: absolute;
   padding: 15px;
   bottom: 0;
@@ -146,12 +146,11 @@ a:hover, a:active{
 .is-featured h1{
   font-family: 'Playfair Display', serif;
   font-size: 3.5rem;
-  color: #E6DFF5;
 }
 
 .is-featured p{
   padding-left: 1px;
-  color: #E6DFF5;
+  color: #D7DFF4;
 }
 
 .is-featured .is-read-more{
@@ -159,7 +158,7 @@ a:hover, a:active{
 }
 
 .is-featured .tag{
-  background-color: #0399FC;
+  background-color: #0479F7;
   color: #E6DFF5;
   text-transform: uppercase;
   font-size: .70rem;
@@ -168,7 +167,7 @@ a:hover, a:active{
 
 .is-featured .tag:hover{
   text-decoration: none;
-  background-color: #F326CB;
+  background-color: #02A3FD;
 }
 
 .section{
@@ -193,8 +192,37 @@ a:hover, a:active{
   margin-bottom: 10px;
 }
 
+.card{
+  border: 1px solid #E509BB;
+  background-color: #0D1730;
+}
+
+/*.card-image{
+  border-bottom: 1px solid #E509BB;
+}*/
+
+.card-opacity{
+  position: absolute;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(13,23,48,0.1)),to(rgba(13,23,48,1)), color-stop(.9,#0d1730));
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
+.card-opacity:hover{
+  position: absolute;
+  background-image: linear-gradient(to bottom, rgba(13,23,48,0), rgba(13,23,48,0.1), rgba(13,23,48,0.2), 
+    rgba(13,23,48,0.4), rgba(13,23,48,0.6), rgba(13,23,48,0.9), rgba(13,23,48,1));
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
 .card-content{
-  background-color: #331A42;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 a.is-title:link, a.is-title:visited{
@@ -211,15 +239,15 @@ a.is-title:hover, a.is-title:active{
 }
 
 .card-content small{
-  color: #E6DFF5;
+  color: #D7DFF4;
 }
 
 .card-content .content p{
-  color: #E6DFF5 !important;
+  color: #D7DFF4 !important;
 }
 
 .card-content .tag{
-  background-color: #0399FC;
+  background-color: #0479F7;
   color: #E6DFF5;
   text-transform: uppercase;
   font-size: .65rem;
@@ -228,7 +256,7 @@ a.is-title:hover, a.is-title:active{
 
 .card-content .tag:hover{
   text-decoration: none;
-  background-color: #F326CB;
+  background-color: #02A3FD;
 }
 
 .is-post-image{

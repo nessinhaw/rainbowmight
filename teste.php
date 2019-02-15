@@ -173,6 +173,7 @@
         <div class="grid-item noticias">
           <div class="card">
             <div class="card-image">
+              <div class="card-opacity"></div>
               <figure class="image is-4by3">
                 <img src="https://i1.wp.com/bloody-disgusting.com/wp-content/uploads/2019/01/resident-evil-2-remake-music-cover.jpg?w=1200&ssl=1" alt="Placeholder image">
               </figure>
@@ -190,6 +191,7 @@
         <div class="grid-item reviews">
           <div class="card">
             <div class="card-image">
+              <div class="card-opacity"></div>
               <figure class="image is-4by3">
                 <img src="https://www.playreplay.com.br/wp-content/uploads/2018/03/elder_scrolls_online_summerset_isles-7.jpg" alt="Placeholder image">
               </figure>
@@ -207,6 +209,7 @@
         <div class="grid-item guias">
           <div class="card">
             <div class="card-image">
+              <div class="card-opacity"></div>
               <figure class="image is-4by3">
                 <img src="https://i.ytimg.com/vi/G7-msC73Bsw/maxresdefault.jpg" alt="Placeholder image">
               </figure>
@@ -224,6 +227,7 @@
         <div class="grid-item noticias">
           <div class="card">
             <div class="card-image">
+              <div class="card-opacity"></div>
               <figure class="image is-4by3">
                 <img src="https://static.altchar.com/live/media/images/950x633_ct/11833_Metro_exodus_7738dae0c72e3d877079d72679581a4e.jpg" alt="Placeholder image">
               </figure>
@@ -242,6 +246,7 @@
         <div class="grid-item noticias">
           <div class="card">
             <div class="card-image">
+              <div class="card-opacity"></div>
               <figure class="image is-4by3">
                 <img src="https://i.redd.it/2wtju8wdor101.jpg" alt="Placeholder image">
               </figure>
@@ -260,6 +265,7 @@
         <div class="grid-item reviews">
           <div class="card">
             <div class="card-image">
+              <div class="card-opacity"></div>
               <figure class="image is-4by3">
                 <img src="https://s3.dexerto.com/thumbnails/_thumbnailLarge/Is-Fallout-76-down-Bethesda-confirms-downtime-for-nuke-silo-hot-fix-January-2.jpg" alt="Placeholder image">
               </figure>
