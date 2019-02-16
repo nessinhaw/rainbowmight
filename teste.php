@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hello Bulma!</title>
-    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Playfair+Display|Roboto:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Montserrat|Cabin|Raleway:300" rel="stylesheet">
     <link rel="stylesheet" href="bulma-0.7.2/css/bulma.min.css">
     <link rel="stylesheet" href="css/flickity.min.css">
     <link rel="stylesheet" href="css/teste.css">
