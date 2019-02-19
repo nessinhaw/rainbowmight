@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hello Bulma!</title>
-    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Playfair+Display|Roboto:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Montserrat|Cabin|Raleway:300" rel="stylesheet">
     <link rel="stylesheet" href="bulma-0.7.2/css/bulma.min.css">
     <link rel="stylesheet" href="css/flickity.min.css">
     <link rel="stylesheet" href="css/teste.css">
+    <link rel="stylesheet" href="css/single.css">
 
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   </head>
@@ -60,7 +61,7 @@
     </div>
   </div>
 
-  <nav class="navbar is-light" role="navigation" aria-label="main navigation">
+  <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item" href="https://bulma.io">
         Nameless
@@ -107,18 +108,16 @@
       <div class="navbar-end">
         <div class="navbar-item navbar-teste">
           <p class="buttons">
-            <a href="" id="toggle2" class="button is-small">
+            <a href="" id="toggle2" class="button">
               <span class="icon">
                 <i class="fas fa-search"></i>
               </span>
-              <span>Search</span>
             </a>
 
-            <a href="" class="button is-small">
+            <a class="button">
               <span class="icon">
                 <i class="fas fa-share-alt"></i>
               </span>
-              <span>Share</span>
             </a>
           </p>
         </div>
@@ -135,51 +134,101 @@
     </a>
   </div>
 
-  <figure class="image is-2by1 is-post-image">
-    <img src="https://s3.dexerto.com/thumbnails/_thumbnailLarge/Is-Fallout-76-down-Bethesda-confirms-downtime-for-nuke-silo-hot-fix-January-2.jpg" alt="Placeholder image">
+  <div class="is-post-header">
+    <div class="opacity"></div>
+    <figure class="image is-3by1">
+      <img src="https://i.redd.it/2wtju8wdor101.jpg" alt="Placeholder image">
+    </figure>
+  </div>
 
-    <section class="section is-post-title">
-    <div class="content">
-      <a class="tag is-dark">Notícias</a>
-      <h1>Titulo do Post</h1>
-      <h6>Publicado em 01/02/2019 | <a href="">Comentar</a></h6>
-    </div>
-    </section>
-  </figure>
+  <section class="section bg-blue border-blue">
+    <div class="is-post">
+      <a class="tag">Reviews</a>
+      <h1>Titulo do Post</h1> 
+      <h6>Publicado em 04/02/2019 por <a href="">Autor</a> | <a href="">Comentar</a></h6>
+      <div class="content">
+        <p>
+          <h2>Post Header</h2>
+          Lorem <b>ipsum</b> dolor sit amet, <i>consectetur</i> adipiscing elit, <u>sed do eiusmod tempor</u> incididunt ut labore et dolore magna aliqua. Egestas tellus rutrum tellus pellentesque eu tincidunt. Sed felis eget velit aliquet sagittis id. Augue eget arcu dictum varius. Non quam lacus suspendisse faucibus interdum posuere lorem. Amet consectetur adipiscing elit duis tristique <a href="">sollicitudin</a> nibh sit amet. Nibh nisl condimentum id venenatis a condimentum vitae. Dolor sit amet consectetur adipiscing elit duis. Molestie a iaculis at erat pellentesque adipiscing commodo. Iaculis at erat pellentesque adipiscing commodo elit. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada. Nunc sed augue lacus viverra vitae. Nullam eget felis eget nunc lobortis mattis aliquam faucibus. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Eu facilisis sed odio morbi. Vel pretium lectus quam id leo in vitae. Eget arcu dictum varius duis at. Odio tempor orci dapibus ultrices in iaculis nunc sed augue. Nibh tellus molestie nunc non blandit massa enim. Nunc sed velit dignissim sodales ut eu.
+          <h2>Post Header 2</h2>
+          Nam <a href="">libero</a> justo laoreet sit amet cursus. Eu feugiat pretium nibh ipsum consequat nisl vel pretium. Aliquam id diam maecenas ultricies mi eget mauris pharetra. Feugiat nisl pretium fusce id velit. Mattis molestie a iaculis at erat pellentesque adipiscing. Ac odio tempor orci dapibus ultrices in iaculis nunc. Posuere ac ut consequat semper viverra. Eget sit amet tellus cras adipiscing enim. Massa eget egestas purus viverra accumsan. Quam pellentesque nec nam aliquam sem et tortor consequat. Mattis enim ut tellus elementum sagittis. Potenti nullam ac tortor vitae purus faucibus ornare suspendisse sed. Ornare lectus sit amet est placerat. Vel risus commodo viverra maecenas accumsan lacus vel facilisis volutpat. Pellentesque nec nam aliquam sem et tortor. Tortor pretium viverra suspendisse potenti. Adipiscing elit duis tristique sollicitudin nibh sit amet. Egestas egestas fringilla phasellus faucibus scelerisque eleifend.
+        
+          <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+          </ul>
 
-  <section class="section is-post">
-    <div class="content">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet. Nunc eget lorem dolor sed. Non pulvinar neque laoreet suspendisse interdum. Non sodales neque sodales ut etiam sit amet. Potenti nullam ac tortor vitae purus faucibus ornare suspendisse. Venenatis cras sed felis eget. A scelerisque purus semper eget. Lectus nulla at volutpat diam ut venenatis tellus in metus. Ullamcorper malesuada proin libero nunc consequat interdum varius sit amet. Tellus at urna condimentum mattis pellentesque. Sit amet nisl purus in mollis nunc sed id semper. Interdum velit euismod in pellentesque massa placerat duis. Sodales ut eu sem integer. Placerat vestibulum lectus mauris ultrices. At varius vel pharetra vel turpis nunc eget lorem dolor. Interdum consectetur libero id faucibus nisl tincidunt eget nullam. Egestas tellus rutrum tellus pellentesque eu tincidunt. Turpis egestas maecenas pharetra convallis posuere. Nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet.
+          <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+          </ol>
 
-      Praesent tristique magna sit amet purus gravida quis blandit. Enim nunc faucibus a pellentesque sit amet porttitor eget dolor. Commodo quis imperdiet massa tincidunt nunc pulvinar. Semper feugiat nibh sed pulvinar proin gravida hendrerit lectus. Varius morbi enim nunc faucibus a pellentesque. At quis risus sed vulputate odio ut. Faucibus purus in massa tempor nec feugiat nisl pretium. Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Volutpat commodo sed egestas egestas fringilla. Diam sollicitudin tempor id eu nisl nunc. Tellus integer feugiat scelerisque varius morbi. Scelerisque fermentum dui faucibus in ornare quam viverra orci. Venenatis a condimentum vitae sapien pellentesque habitant morbi tristique. In ornare quam viverra orci sagittis. Bibendum ut tristique et egestas quis ipsum.</p>
-
-      <article class="media is-author">
-        <figure class="media-left">
-          <p class="image is-96x96">
-            <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
+          <table>
+            <tr>
+              <td>Item 1</td>
+              <td>Item 2</td>
+              <td>Item 3</td>
+            </tr>
+            <tr>
+              <td>Item 1</td>
+              <td>Item 2</td>
+              <td>Item 3</td>
+            </tr>
+            <tr>
+              <td>Item 1</td>
+              <td>Item 2</td>
+              <td>Item 3</td>
+            </tr>
+          </table>
+        
+        </p>
+        <div class="is-author">
+          <article class="media">
+            <figure class="media-left">
+              <p class="image is-96x96">
+                <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
+              </p>
+            </figure>
+            <div class="media-content">
+              <div class="content">
+                <p>
+                  <a href="">Nome do Autor</a>
+                  <br>
+                  "Some kewl quote :D"
+                </p>
+              </div>
+            </div>
+          </article>
+          <p>
+            Tags: <a href="">Tag 1</a>, <a href="">Tag 2</a>, <a href="">Tag 3</a>, <a href="">Tag 4</a>, <a href="">Tag 5</a>  Share: <a href="">Facebook</a><a href="">Twitter</a>
           </p>
-        </figure>
-        <div class="media-content">
-          <div class="content">
-            <p>
-              <strong><a href="">Nome do Autor</a></strong>
-              <br>
-              "Some kewl quote :D".
-            </p>
-          </div>
         </div>
-      </article>
-      <p class="has-text-centered">Tags: <a href="">Tag1</a>, <a href="">Tag2</a>, <a href="">Tag3</a>, <a href="">Tag4</a></p>
+      </div>
+    </div>
+  </section>
 
-      <h6>Post Relacionados</h6>
-      <div class="columns">
+  <section class="section border-blue">
+    <div class="is-related-header">
+      <span class="tag">Leia Também</span>
+    </div>
+      <div class="columns is-related">
         <div class="column">
           <div class="card">
+            <div class="card-image">
+              <div class="card-opacity"></div>
+              <figure class="image is-2by1">
+                <img src="https://i1.wp.com/bloody-disgusting.com/wp-content/uploads/2019/01/resident-evil-2-remake-music-cover.jpg?w=1200&ssl=1" alt="Placeholder image">
+              </figure>
+            </div>
             <div class="card-content">
-              <a class="tag is-dark">Guias</a>
-              <h1><a href="">Titulo do Post</a></h1> <small>03/02 por <a href="">Autor</a></small>
+              <a class="tag">Reviews</a>
+              <h1><a class="is-title" href="">Titulo do Post</a></h1> <small>04/02 por <a href="">Autor</a></small>
               <div class="content">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet. <a href="">Leia mais</a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet. Nunc eget lorem dolor sed. <a href="">Leia mais</a></p>
               </div>
             </div>
           </div>
@@ -187,11 +236,17 @@
 
         <div class="column">
           <div class="card">
+            <div class="card-image">
+              <div class="card-opacity"></div>
+              <figure class="image is-2by1">
+                <img src="https://i1.wp.com/bloody-disgusting.com/wp-content/uploads/2019/01/resident-evil-2-remake-music-cover.jpg?w=1200&ssl=1" alt="Placeholder image">
+              </figure>
+            </div>
             <div class="card-content">
-              <a class="tag is-dark">Guias</a>
-              <h1><a href="">Titulo do Post</a></h1> <small>03/02 por <a href="">Autor</a></small>
+              <a class="tag">Reviews</a>
+              <h1><a class="is-title" href="">Titulo do Post</a></h1> <small>04/02 por <a href="">Autor</a></small>
               <div class="content">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet. <a href="">Leia mais</a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet. Nunc eget lorem dolor sed. <a href="">Leia mais</a></p>
               </div>
             </div>
           </div>
@@ -199,18 +254,48 @@
 
         <div class="column">
           <div class="card">
+            <div class="card-image">
+              <div class="card-opacity"></div>
+              <figure class="image is-2by1">
+                <img src="https://i1.wp.com/bloody-disgusting.com/wp-content/uploads/2019/01/resident-evil-2-remake-music-cover.jpg?w=1200&ssl=1" alt="Placeholder image">
+              </figure>
+            </div>
             <div class="card-content">
-              <a class="tag is-dark">Guias</a>
-              <h1><a href="">Titulo do Post</a></h1> <small>03/02 por <a href="">Autor</a></small>
+              <a class="tag">Reviews</a>
+              <h1><a class="is-title" href="">Titulo do Post</a></h1> <small>04/02 por <a href="">Autor</a></small>
               <div class="content">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet. <a href="">Leia mais</a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet. Nunc eget lorem dolor sed. <a href="">Leia mais</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <div class="card-opacity"></div>
+              <figure class="image is-2by1">
+                <img src="https://i1.wp.com/bloody-disgusting.com/wp-content/uploads/2019/01/resident-evil-2-remake-music-cover.jpg?w=1200&ssl=1" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <a class="tag">Reviews</a>
+              <h1><a class="is-title" href="">Titulo do Post</a></h1> <small>04/02 por <a href="">Autor</a></small>
+              <div class="content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet. Nunc eget lorem dolor sed. <a href="">Leia mais</a></p>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
   </section>
 
+  <section class="section bg-blue">
+    <div class="is-comments-header">
+      <span class="tag">Comentários</span>
+    </div>
+  </section>
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>

@@ -1,0 +1,150 @@
+.bg-blue{
+  background-color: #0D1730;
+}
+
+.border-blue{
+  border-bottom: 1px solid #0479F7;
+}
+
+.is-post-header{
+  position: relative;
+  background-color: #0D1730;
+  border-bottom: 1px solid #0479F7;
+}
+
+/*.is-post-header .image img{
+  opacity: 0.6;
+  transition: .5s;
+}
+  
+.is-post-header .image img:hover{
+  opacity: 1;
+}*/
+
+.is-post-header .opacity{
+  position: absolute;
+  background: rgba(13, 23, 48, 0.45);
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  transition: .5s;
+}
+
+.is-post-header .opacity:hover{
+  position: absolute;
+  background: rgba(13, 23, 48, 0);
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
+.is-post{
+  position: relative;
+  background-color: transparent;
+  color: #d7dff4;
+  margin-top: -4.50%;
+  margin-left: 7.75%;
+  padding: 15px;
+  width: 85%;
+  z-index: 999;
+}
+
+.is-post h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.65rem;
+
+}
+
+.is-post h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.50rem;
+  color: #d7dff4;
+  font-weight: 400;
+}
+
+.is-post h6{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.95rem;
+  margin-bottom: 1.25%;
+}
+
+.is-post .tag{
+  background-color: #0479F7;
+  color: #E6DFF5;
+  text-transform: uppercase;
+  font-size: .80rem;
+  transition: .3s;
+}
+
+.is-post .tag:hover{
+  text-decoration: none;
+  background-color: #02A3FD;
+}
+
+.is-author .media{
+  margin-top: 5%;
+  margin-left: 30%;
+}
+.is-author .media-content{
+  padding-top: 30px;
+}
+
+.is-author .media-content a{
+  font-size: 1.15rem;
+}
+
+.is-related-header{
+  position: relative;
+  background-color: transparent;
+  color: #d7dff4;
+  margin-top: -4.50%;
+  margin-left: 7.75%;
+  margin-bottom: 1%;
+  padding: 15px;
+  width: 85%;
+  z-index: 999;
+}
+
+.is-related-header .tag{
+  background-color: #0479F7;
+  color: #E6DFF5;
+  text-transform: uppercase;
+  font-size: .80rem;
+  transition: .3s;
+}
+
+.is-related-header .tag:hover{
+  text-decoration: none;
+  background-color: #02A3FD;
+}
+
+.is-related{
+  padding-bottom: 1.5%;
+  margin-left: 7.75%;
+  width: 85%;
+}
+
+.is-comments-header{
+  position: relative;
+  background-color: transparent;
+  color: #d7dff4;
+  margin-top: -4.50%;
+  margin-left: 7.75%;
+  margin-bottom: 1%;
+  padding: 15px;
+  width: 85%;
+  z-index: 999;
+}
+
+.is-comments-header .tag{
+  background-color: #0479F7;
+  color: #E6DFF5;
+  text-transform: uppercase;
+  font-size: .80rem;
+  transition: .3s;
+}
+
+.is-comments-header .tag:hover{
+  text-decoration: none;
+  background-color: #02A3FD;
+}
